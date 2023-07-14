@@ -1,0 +1,36 @@
+
+.login-form{
+    width: 400px;
+    margin: 100px auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+body{
+    background-image: url("all images/bg2.jpeg");
+   background-size: cover;
+   backdrop-filter: blur(5px);
+}
+/* img{ */
+    /* height: 500px;
+    width: 295px;
+    border-top-left-radius: 20px;
+     border-bottom-left-radius:20px; 
+     float: left;
+}
+.text-right{
+    float: right;
+    width: 250px;
+    height: 450px;
+    background-color: #fff;
+    font-size: 14px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+} */
+
+    
+    
+
+  
+  

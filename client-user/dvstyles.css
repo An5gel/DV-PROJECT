@@ -1,0 +1,50 @@
+body{
+ width: 100%;
+   background-image: url("all images/bg2.jpeg");
+   background-size:cover;
+   backdrop-filter: blur(5px);
+   padding: 0px;
+  
+}
+   
+.landing-page{
+  
+}
+
+.d-block {
+   height: 500px;
+   width: 100%;
+   margin: 0 auto;
+}
+.dv1{
+   padding-top: 300px;
+   padding-right: 50px;
+}
+#btn{
+   float: right;
+   margin-top: 350px;
+   margin-right: 10px;
+  background-color: transparent;
+  border-radius: 116px;
+ /* padding: 10px; */
+}
+
+button:hover{
+   color: aqua;
+}
+#parking-title{
+   font-size: 120px;
+   font-weight: 700;
+}
+li{
+   list-style: none;
+   float: left;
+}
+p{
+   font-size: 30px;
+   margin-top: 0px;
+}
+.li-1{
+   font-size: 30px;
+   font-color: black;
+}

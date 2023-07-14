@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="set/bootstrap/css">
+    <link rel="stylesheet" href="register.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="register">
+        <h3>REGISTER</h3>
+        <form id="formId" name="register" action="#" onclick="return Validate();" method = "POST">
+            <div class="mb-3">
+              <label for="firstname" class="form-label">Driver's Name</label>
+              <input type="text" class="form-control" id="firstname" name="firstname">
+              <span id="dnameerror"></span>
+              
+            <div class="mb-3">
+              <label for="numberp" class="form-label">Phone</label>
+              <input type="text" class="form-control" id="numberp" name="numberp">
+              <span id="cnumbererror"></span>
+            </div>
+            <div class="mb-3">
+             <label for="type">Type of vehicle</label>
+             <select name="type" id="type"class="form-control">
+              <option value="select">Select</option>
+              <option value="Truck">Truck</option>
+              <option value="Coaster">Coaster</option>
+              <option value="Personal Car">Personal Car</option>
+              <option value="Taxi">Taxi</option>
+              <option value="Boda-boda">Boda-boda</option>
+            </select>
+            </div>
+            <div class="mb-3">
+              <label for="carnum" class="form-label"> Car Number</label>
+              <input type="alpha numeric" class="form-control" id="carnum">
+              <span id="carnumError"></span>
+            </div>
+            <div class="mb-3">
+              <label for="vehiclecolor" class="form-label">Vehicle Color</label>
+              <input type="color" id="vehiclecolor" class="form-control" >
+              <span id="vColorError"></span>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Date</label>
+              <input type="date" class="form-control" id="exampleInputPassword1">
+            </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Time of Arrival</label>
+                <input type="time" s class="form-control" id="exampleInputPassword1">
+              </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="button"onclick="location.href='./services.html'" class="btn btn-primary">CONFIRM</button>
+            </form>
+            <script src="registervalidation.js"></script>
+            <script src="set/bootstrap/js"></script>
+    </div>
+</body>
+</html> 

@@ -1,0 +1,27 @@
+body{
+    width: 100%;
+   background-image: url("all images/bg2.jpeg");
+   background-size: cover;
+   backdrop-filter: blur(5px);
+   padding: 0px;
+}
+th,td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+th,tr {
+  background-color: #4c7daf;
+  color: #fff;
+}
+table {
+    empty-cells: show;
+  }
+  p {
+    margin-top: 20px;
+  }
+  /* table {
+    border-collapse: separate;
+    border-spacing: 10px;
+  } */
+    
