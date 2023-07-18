@@ -10,49 +10,66 @@
   <body>
     <div class="landing-page container-fluid">
       <div class="row">
-        <div class="header">
-          <ul class="nav justify-content-center">
-            <li class="nav-item li-1">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item li-1">
-              <a class="nav-link" href="#">About us</a>
-            </li>
-            <li class="nav-item li-1">
-              <a class="nav-link" href="#">Reviews</a>
-            </li>
-            <li class="nav-item li-1">
-              <a class="nav-link disabled">Help</a>
-            </li>
-          </ul>
-        </div>
-        <div class="main">
-          <ul>
-            <li>
+        <div class="col-sm-9 mb-3 mb-sm-0">
+          <div class="card b-body">
+            <div class="card-body ">
               <div class="dv1">
-                <div id="parking-title">DV PARKING</div>
+                <div id="parking-title">#DV PARKING</div>
                 <p>"Your better parking choice"</p>
+                <ul>
+                  <li><img class="img-li" src="all images/twit.jpg"></li>
+                  <li><img class="img-li" src="all images/face.jpg"></li>
+                  <li><img class="img-li" src="all images/gog.jpg"></li>
+                </ul>
+                <div class="buts">
+                  <button
+                    type="button"
+                    id="btn"
+                    class="btn-p"
+                    onclick="location.href = 'loginpage.html';"
+                  >
+                    Login 
+                  </button>
+                  <button
+                    type="button"
+                    id="btn-pp"
+                    class="btn-p"
+                    onclick="location.href = '';"
+                  >
+                    Sign up
+                  </button>
+                </div>
               </div>
-            </li>
+             
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-sm-3"style="height: 500px">
+          <div class="card s-body">
+            <div class="card-body">
+              <img src="all images/truck.jpeg" class="card-img-top" alt="..." />
+              <h5 class="card-title">Car parking</h5>
+            </div>
+  
+            <div class="card-body">
+              <img src="all images/tire.jpeg" class="card-img-top" alt="..." />
+              <h5 class="card-title">Tire Clinic</h5>
+            </div>
+            <div class="card-body">
+              <img src="all images/bat.jpeg" class="card-img-top" alt="..." />
+              <h5 class="card-title">Battery hi</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./set/bootstrap/js"></script>
+  </body>
+</html>
+ <!-- <ul>
             <li>
-              <button
-                type="button"
-                id="btn"
-                class="btn-p"
-                onclick="location.href = 'loginpage.html';"
-              >
-                Login Here
-              </button>
-            </li>
-            <li>
-              <button
-                type="button"
-                id="btn"
-                class="btn-p"
-                onclick="location.href = '';"
-              >
-                Sign up
-              </button>
+              
             </li>
             <li>
               <button
@@ -64,10 +81,4 @@
                 Settings
               </button>
             </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <script src="./set/bootstrap/js"></script>
-  </body>
-</html>
+          </ul> -->

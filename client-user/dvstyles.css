@@ -1,50 +1,81 @@
 body{
  width: 100%;
-   background-image: url("all images/bg2.jpeg");
+   /* background-image: url("all images/bg2.jpeg");
    background-size:cover;
-   backdrop-filter: blur(5px);
+   backdrop-filter: blur(5px); */
    padding: 0px;
   
 }
-   
-.landing-page{
-  
-}
-
-.d-block {
+   .d-block {
    height: 500px;
    width: 100%;
    margin: 0 auto;
 }
 .dv1{
-   padding-top: 300px;
-   padding-right: 50px;
+   border: 1px solid black;
+   border-radius: 20px;
+   background-color: aliceblue;
+   margin: 50px;
+   align-items: center;
+   text-align: center;
+   height: 500px;
+   width: 800px;
+   padding: 100px;
+  
 }
-#btn{
+ .btn-p{
+   background-color: opaque;
+   border-radius: 116px;
+   padding: 10px;
+   
+} 
+.buts{
    float: right;
-   margin-top: 350px;
-   margin-right: 10px;
-  background-color: transparent;
-  border-radius: 116px;
- /* padding: 10px; */
+   padding-right: 150px;
+   margin-top: 0px;
+   margin-left: 1px;
 }
 
 button:hover{
    color: aqua;
 }
 #parking-title{
-   font-size: 120px;
-   font-weight: 700;
+   font-size: 70px;
+   font-weight: 100;
+   font-family: sans-serif;
+}
+ul{
+   float: right;
+   padding-right: 200px;
+   margin-top: 70px;
+   margin-left: 1px;
 }
 li{
    list-style: none;
    float: left;
+   padding: 10px;
+   
+}
+.img-li{
+  height: 40px;
+  width: 40px;
 }
 p{
-   font-size: 30px;
+   font-size: 25px;
    margin-top: 0px;
 }
-.li-1{
-   font-size: 30px;
-   font-color: black;
+img{
+height: 140px;
+width: 120px;
 }
+.b-body{
+  height: 600px;
+  background-color: cornflowerblue;
+  border-radius: 20px;
+}
+.s-body{
+   height: 600px;
+   background-color: cornflowerblue;
+   border-radius: 20px;
+}
+
