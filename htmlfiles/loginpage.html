@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../set/bootstrap/css" />
+    <link rel="stylesheet" href="../css/loginstyle.css" />
+    <title>LOGIN</title>
+  </head>
+  <body>
+    <div class="login-form text-right">
+      <form
+        id="formId"
+        name="login"
+        action="#"
+        onsubmit="return Validate();"
+        method="POST"
+      >
+        <!-- <img src="all images/imgsp.jpeg" alt=""> -->
+        <div class="mb-3">
+          <label for="email1" class="form-label">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email1"
+            aria-describedby="emailHelp"
+          />
+          <span id="emailError"></span>
+        </div>
+        <div class="mb-3">
+          <label for="password1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="password1" />
+          <span id="passwordError"></span>
+        </div>
+        <button
+          type="submit"
+         class="btn btn-primary"
+          >
+          <a href="services.html"></a>
+          Submit
+        </button>
+      </form>
+    </div>
+
+    <script src="../js/login.js"></script>
+    <script src="../set/bootstrap/js"></script>
+  </body>
+</html>

@@ -22,16 +22,41 @@ const Validate = ()=>{
         email.style.border = "1px solid red";
         errorEmail1.textContent = "The email address should be valid";
         errorEmail1.style = "color: red; font-size:11px; font-family:helvetica,Arial,sans-serif;";
-        password.focus();
+        email.focus();
         return false;
     }
-
-    //validating PASSWORD
     if(password.value == ""){
         password.style.border = "1px solid red";
         errorPasswordl.textContent = "password is required";
-        errorpassword1.style = "color: red; font-size:11px; font-family:helvetica,Arial,sans-serif;";
+        errorPasswordl.style = "color: red; font-size:11px; font-family:helvetica,Arial,sans-serif;";
         password.focus();
         return false;
+
+    }else{
+        password.style.border = "1px solid green";
+        
     }
+    
+    window.location.assign("./services.html")
+
+// else if{
+//         email.style.border = "1px solid green";
+//         errorEmail1.textContent = "";
+//         password.focus();
+        
+//     }
+
+//     //validating PASSWORD
+//     if(password.value == ""){
+//         password.style.border = "1px solid red";
+//         errorPasswordl.textContent = "password is required";
+//         errorPassword1.style = "color: red; font-size:11px; font-family:helvetica,Arial,sans-serif;";
+//         password.focus();
+//         return false;
+
+//     }else { 
+//         password.style.border = "1px solid green";
+//        errorPassword1.textContent = "";
+//         password.focus()
+// }
 }

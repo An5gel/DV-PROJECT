@@ -55,10 +55,10 @@ const Validate = ()=>{
 
     if(!phoneRegex.test(phone.value)){
         phone.style.border = "2px solid red";
-        cnumbererror.textContent = "Enter a valid number starting with +256";
-        //styling error
-        cnumbererror.style = "color: red; font-size:11px; font-family: Helevetica,Arial;";
-        //focus cursor
+        // cnumbererror.textContent = "Enter a valid number starting with +256";
+        // //styling error
+        // cnumbererror.style = "color: red; font-size:11px; font-family: Helevetica,Arial;";
+        // //focus cursor
        type.focus();
         return false;
     }
@@ -89,7 +89,7 @@ const Validate = ()=>{
         vehiclecolor.style.border = "2px solid red" 
         vColorError.textContent ="Color not defined"
         vColorError.style = "color: red; font-size:11px; font-family: Helvetica,arial;";
-       carNumber.focus()
+       Date.focus()
         return false
     }     
 }    
