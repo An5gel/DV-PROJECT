@@ -1,0 +1,151 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='../set/bootstrap/css')
+  link(rel='stylesheet' href='../css/services.css')
+  title Document
+.container-fluid
+  .row
+    div
+      ul.nav.justify-content-end
+        li.nav-item
+          a.nav-link.active(aria-current='page' href='#') Sevices
+        li.nav-item
+          a.nav-link(href='#') Tabs
+        li.nav-item
+          a.nav-link(href='#') Report
+        li.nav-item
+          a.nav-link.disabled Settings
+    h1  OUR SERVICES
+    h3 PARKING
+    .container-fluid
+      .row
+        .card.col-sm-3.card-img(style='width: 18rem')
+          img.card-img-top(src='../allimages/truck.jpeg' alt='...')
+          .card-body
+            h5.card-title TRUCKS
+            p.card-text
+              div
+                ul
+                  .mb-3.form-check
+                    input#truckCheck1.form-check-input(type='checkbox')
+                    label.form-check-label(for='exampleCheck1') DAY - 3000
+                  .mb-3.form-check
+                    input#truckCheck2.form-check-input(type='checkbox')
+                    label.form-check-label(for='exampleCheck1') NIGHT - 5000
+                  .mb-3.form-check
+                    input#truckCheck3.form-check-input(type='checkbox')
+                    label.form-check-label(for='exampleCheck1') 3HRS - 2000
+            a.btn.btn-primary(href='#') ADD
+        .card.col-sm-3.card-img(style='width: 18rem')
+          img.card-img-top(src='../allimages/pcar.jpeg' alt='...')
+          .card-body
+            h5.card-title Personal Cars
+            p.card-text
+              div
+                ul
+                  .mb-3.form-check
+                    input#pcarCheck1.form-check-input(type='checkbox')
+                    label.form-check-label(for='exampleCheck1') DAY - 3000
+                  .mb-3.form-check
+                    input#pcarCheck2.form-check-input(type='checkbox')
+                    label.form-check-label(for='exampleCheck1') NIGHT - 2000
+                  .mb-3.form-check
+                    input#pcarCheck3.form-check-input(type='checkbox')
+                    label.form-check-label(for='exampleCheck1') 3HRS - 2000
+            a.btn.btn-primary(href='#') ADD
+        .card.col-sm-3.card-img(style='width: 18rem')
+          img.card-img-top.card-top(src='../allimages/taxi.jpeg' alt='...')
+          .card-body
+            h5.card-title Taxis
+            p.card-text
+              div
+                ul
+                  .mb-3.form-check
+                    input#taxiCheck1.form-check-input(type='checkbox')
+                    label.form-check-label(for='exampleCheck1') DAY - 3000
+                  .mb-3.form-check
+                    input#taxiheck2.form-check-input(type='checkbox')
+                    label.form-check-label(for='exampleCheck1') NIGHT - 2000
+                  .mb-3.form-check
+                    input#taxiCheck3.form-check-input(type='checkbox')
+                    label.form-check-label(for='exampleCheck1') 3HRS - 2000
+            a.btn.btn-primary(href='#') ADD
+        .card.col-sm-3.card-img(style='width: 18rem')
+          img.card-img-top(src='../allimages/coaster.jpeg' alt='...')
+          .card-body
+            h5.card-title Coasters
+            p.card-text
+              div
+                ul
+                  .mb-3.form-check
+                    input#coasterCheck1.form-check-input(type='checkbox')
+                    label.form-check-label(for='exampleCheck1') DAY - 3000
+                  .mb-3.form-check
+                    input#coasterCheck2.form-check-input(type='checkbox')
+                    label.form-check-label(for='exampleCheck1') NIGHT - 2000
+                  .mb-3.form-check
+                    input#coasterCheck3.form-check-input(type='checkbox')
+                    label.form-check-label(for='exampleCheck1') 3HRS - 3000
+            a.btn.btn-primary(href='#') ADD
+        .card.col-sm-3.card-img(style='width: 18rem')
+          img.card-img-top(src='../allimages/boda.jpeg' alt='...')
+          .card-body
+            h5.card-title Boda-Bodas
+            p.card-text
+              div
+                ul
+                  .mb-3.form-check
+                    input#bodaCheck1.form-check-input(type='checkbox')
+                    label.form-check-label(for='exampleCheck1') DAY - 2000
+                  .mb-3.form-check
+                    input#bodaCheck2.form-check-input(type='checkbox')
+                    label.form-check-label(for='exampleCheck1') NIGHT - 2000
+                  .mb-3.form-check
+                    input#bodaCheck3.form-check-input(type='checkbox')
+                    label.form-check-label(for='exampleCheck1') 3HRS - 1000
+            a.btn.btn-primary(href='#') ADD
+    h3 CAR CLINIC
+    .container-fluid.clinic
+      .row
+        .card.col-sm-4(style='width: 18rem')
+          img.card-img-top(src='../allimages/tirep.jpg' alt='...')
+          .card-body
+            h5.card-title Tire Pressure
+            p.card-text
+              .mb-3.form-check
+                input#pressureCheck.form-check-input(type='checkbox')
+                label.form-check-label(for='pressureCheck1') 500
+            a.btn.btn-primary(href='#') ADD
+        .card.col-sm-4(style='width: 18rem')
+          img.card-img-top(src='../allimages/tire.jpeg' alt='...')
+          .card-body
+            h5.card-title Puncture Fix
+            p.card-text
+              .mb-3.form-check
+                input#punctureCheck.form-check-input(type='checkbox')
+                label.form-check-label(for='punctureCheck')  5000
+              | .
+            a.btn.btn-primary(href='#') ADD
+        .card.col-sm-4(style='width: 18rem')
+          img.card-img-top(src='../allimages/valve.jpeg' alt='...')
+          .card-body
+            h5.card-title Valves
+            p.card-text
+              .mb-3.form-check
+                input#valveCheck.form-check-input(type='checkbox')
+                label.form-check-label(for='valveCheck') 5000
+            a.btn.btn-primary(href='#') ADD
+    h3 BATTERY HIRE
+    .card(style='width: 18rem')
+      img.card-img-top(src='../allimages/bat.jpeg' alt='...')
+      .card-body
+        h5.card-title BATTERY
+        p.card-text
+          | For hire
+          .mb-3.form-check
+            input#batterCheck.form-check-input(type='checkbox')
+            label.form-check-label(for='batteryCheck') By size
+        a.btn.btn-primary(href='#') Go somewhere
+script(src='../set/bootstrap/js')

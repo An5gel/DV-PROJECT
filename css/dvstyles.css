@@ -85,5 +85,31 @@ border-radius: 20px;
 .hover-effect:hover {
    opacity:1;
  }
+ /* .video-wrapper{
+   /* Telling our absolute positioned video to be relative to this element */
+   position: relative;
  
-
+   height: 500px;
+   width: 800px;
+   /* Will not allow the video to overflow the container */
+   overflow: hidden;
+   /* Centering the container's content vertically and horizontally */
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .video-wrapper video {
+   position: absolute;
+   top: 0;
+   left: 0;
+ }
+.content{
+   position:relative;
+   z-index: 1;
+}
+ 
+ 
+ 
+ */

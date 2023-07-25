@@ -1,0 +1,47 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='../set/bootstrap/css')
+  link(rel='stylesheet' href='../../css/register.css')
+  title Document
+.register
+  h3 REGISTER
+  form#formId(name='register' action='#' onclick='return Validate();' method='POST')
+    .mb-3
+      label.form-label(for='firstname') Driver&apos;s Name
+      input#firstname.form-control(type='text' name='firstname')
+      span#dnameerror
+      .mb-3
+        label.form-label(for='numberp') Phone
+        input#numberp.form-control(type='text' name='numberp')
+        span#cnumbererror
+      .mb-3
+        label(for='type') Type of vehicle
+        select#type.form-control(name='type')
+          option(value='select') Select
+          option(value='Truck') Truck
+          option(value='Coaster') Coaster
+          option(value='Personal Car') Personal Car
+          option(value='Taxi') Taxi
+          option(value='Boda-boda') Boda-boda
+      .mb-3
+        label.form-label(for='carnum')  Car Number
+        input#carnum.form-control(type='alpha numeric')
+        span#carnumError
+      .mb-3
+        label.form-label(for='vehiclecolor') Vehicle Color
+        input#vehiclecolor.form-control(type='color')
+        span#vColorError
+      .mb-3
+        label.form-label(for='exampleInputPassword1') Date
+        input#exampleInputPassword1.form-control(type='date')
+      .mb-3
+        label.form-label(for='exampleInputPassword1') Time of Arrival
+        input#exampleInputPassword1.form-control(type='time' s='')
+      .mb-3.form-check
+        input#exampleCheck1.form-check-input(type='checkbox')
+        label.form-check-label(for='exampleCheck1') Check me out
+      button.btn.btn-primary(type='button' onclick="location.href='./services.html'") CONFIRM
+  script(src='../js/registervalidation.js')
+  script(src='../set/bootstrap/js')

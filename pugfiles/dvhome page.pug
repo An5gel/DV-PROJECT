@@ -1,0 +1,47 @@
+doctype html
+| PASTE YOUR HTML CODE HERE
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='../set/bootstrap/css')
+  link(rel='stylesheet' href='../css/dvstyles.css')
+  title DV parking
+.landing-page.container-fluid
+  .row
+    .col-sm-9.mb-3.mb-sm-0
+      .card.b-body
+        .card-body
+          .dv1
+            .video-wrapper
+              //
+                <video class="hero-media-asset is-visible" autoplay="" muted="" loop="" playsinline="" data-hero-video="" data-src-lg="https://cdn.dribbble.com/uploads/39417/original/49dbf46eae15d227fc95a69cee31251e.mp4?1657824906" data-src-sm="https://cdn.dribbble.com/uploads/39418/original/0cc960a3bf612d0badc4f6165eb36f7b.mp4?1657824915">
+                <source src="https://cdn.dribbble.com/uploads/39417/original/49dbf46eae15d227fc95a69cee31251e.mp4?1657824906" type="video/mp4">
+                </video>
+            .content
+              #parking-title #DV PARKING
+              p &quot;Your better parking choice&quot;
+              p#para For all your vehicle solutions
+              ul
+                li
+                  img.img-li.hover-effect(src='../allimages/twit.jpg')
+                li
+                  img.img-li.hover-effect(src='../allimages/face.jpg')
+                li
+                  img.img-li.hover.effect(src='../allimages/gog.jpg')
+              .buts
+                button#btn.btn-p(type='button' onclick="location.href = 'loginpage.html';")
+                  | Login
+                button#btn-pp.btn-p(type='button' onclick="location.href = 'register-page.html';")
+                  | Sign up
+    .col-sm-3(style='height: 500px')
+      .card.s-body
+        .card-body
+          img.card-img-top(src='../allimages/truck.jpeg' alt='...')
+          h5.card-title Car parking
+        .card-body
+          img.card-img-top(src='../allimages/tire.jpeg' alt='...')
+          h5.card-title Tire Clinic
+        .card-body
+          img.card-img-top(src='../allimages/bat.jpeg' alt='...')
+          h5.card-title Battery hire
+script(src='../set/bootstrap/js')

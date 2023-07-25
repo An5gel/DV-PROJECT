@@ -1,0 +1,23 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='../set/bootstrap/css')
+  link(rel='stylesheet' href='../css/loginstyle.css')
+  title LOGIN
+.login-form.text-right
+  form#formId(name='login' action='#' onsubmit='return Validate();' method='POST')
+   
+    .mb-3
+      label.form-label(for='email1') Email address
+      input#email1.form-control(type='email' aria-describedby='emailHelp')
+      span#emailError
+    .mb-3
+      label.form-label(for='password1') Password
+      input#password1.form-control(type='password')
+      span#passwordError
+    button.btn.btn-primary(type='submit')
+      a(href='services.html')
+      |           Submit
+script(src='../js/login.js')
+script(src='../set/bootstrap/js')
